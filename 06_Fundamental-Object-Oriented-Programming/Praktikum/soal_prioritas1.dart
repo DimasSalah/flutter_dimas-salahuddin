@@ -1,45 +1,29 @@
-
-//membuat class hewan
-class Hewan {
-  int berat;
-
-  Hewan(this.berat);
+class Animal {
+  int weight;
+  Animal(this.weight);
 }
 
-//membuat class mobil
-class Mobil {
-  int kapasitas;
-  List<Hewan> muatan = [];
+class Car {
+  int capacity;
+  List<Animal> cargo;
+  Car(this.capacity) : cargo = [];
 
-  Mobil(this.kapasitas);
-
-  //menghitung total berat muatan
-  int totalMuatan() {
-    int total = 0;
-    for (Hewan hewan in muatan) {
-      total += hewan.berat;
-    }
-    return total;
-  }
-
-  //method untuk menambahkan hewan ke dalam muatan
-  void tambahMuatan(Hewan hewan) {
-    if (totalMuatan() + hewan.berat <= kapasitas) {
-      muatan.add(hewan);
-      print('Hewan ditambahkan ke dalam muatan.');
+  void addAnimal(Animal animal) {
+    if (capacity >= animal.weight + totalLoad()) {
+      cargo.add(animal);
     } else {
-      print('Tidak dapat menambahkan hewan dalam muatan karena melebihi kapasitas.');
+      print("Mobil sudah penuh tidak dapat menambahkan hewan.");
     }
   }
 
-  
+  int totalLoad() {
+    return cargo.fold(0, (sum, animal) => sum + animal.weight);
+  }
 }
 
 void main() {
-  Hewan singa = Hewan(40);
-
-  //mengisi kapasitas mobil
-  Mobil truk = Mobil(50);  
-  truk.tambahMuatan(singa);
-
+  var car = Car(500); //kapasitas mobil
+  Animal singa = Animal(250); //berat hewan
+  car.addAnimal(singa); //tambahkan hewan ke dalam mobil
+  print(car.totalLoad()); //print total berat hewan di dalam mobil
 }
