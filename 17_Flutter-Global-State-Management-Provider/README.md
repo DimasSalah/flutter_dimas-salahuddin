@@ -11,6 +11,8 @@ ChangeNotifierProvider(
 );
 ```
 
+
+
 ### MultiProvider
 - jika kita membutuhkan lebih dari satu provider
 ```dart
@@ -22,24 +24,7 @@ MultiProvider(
       child: <widget> 
 );
 ```
-#### Navigation dengan NamedRoutes
-- Tiap halaman memiliki alamat yang disebut route
-- Menambahkan initialRoutes pada main.dart
-- Tiap route adalah fungsi untuk membentuk halaman
-- menggunakan Navigator.pushNamed()
-```dart
-intialRoute: '/',
-routes: {
-    '/' : (_) => const HomeScreen();
-    '/about' : (_) => const AboutScreen();
-}
-```
-#### Contoh penggunaan untuk berpindah halaman
-```dart
-onPressed: () {
-    navigator.of(context).pushNamed('/about');
-}
-```### Consumer
+### Consumer
 - widget yang mendengarkan perubahan kelas yang mengimplementasikan ChangeNotifier
 - Membangun ulang widget yang dibungkus Consumer saja
 - Penting untuk meletakan Consumer pada lingkup sekecil mungkin
