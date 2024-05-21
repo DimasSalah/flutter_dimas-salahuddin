@@ -1,0 +1,93 @@
+link gdocs : https://docs.google.com/document/d/1AnhHC8opGZOuh2GWXVjJDftmXRts8B0j1XqDFsDi2rc/edit?usp=sharing
+
+
+input : 
+hai bisakah kamu memeberitahu saya roadmap belajar fluuter dalam sebulan dari pemula hingga mahir, berikan setiap poin dalam seminggu apa yang harus saya raih.
+
+output:
+Tentu! Berikut adalah roadmap belajar Flutter dalam sebulan, dirancang untuk pemula hingga mahir. Roadmap ini dibagi per minggu, dengan fokus pada pencapaian tujuan-tujuan spesifik setiap minggunya.
+
+### Minggu 1: Dasar-dasar Flutter dan Dart
+**Tujuan:** Memahami dasar-dasar Flutter dan bahasa pemrograman Dart.
+
+1. **Hari 1-2: Pengenalan Flutter**
+   - Pahami apa itu Flutter dan kenapa Flutter digunakan.
+   - Instalasi Flutter SDK dan alat-alat yang dibutuhkan (Android Studio, Visual Studio Code, dll).
+   - Menjalankan aplikasi Flutter pertama Anda (flutter create).
+
+2. **Hari 3-4: Dasar-dasar Dart**
+   - Pengenalan bahasa Dart.
+   - Variabel, tipe data, dan operator.
+   - Kontrol alur: if-else, loops (for, while).
+
+3. **Hari 5-7: Flutter Basics**
+   - Struktur proyek Flutter.
+   - Widgets dasar: Text, Container, Row, Column, Image.
+   - Layout dasar dengan widgets.
+   - State management dasar menggunakan `setState`.
+
+**Hasil:** Anda sudah bisa membuat dan menjalankan aplikasi Flutter sederhana serta memahami dasar-dasar Dart.
+
+### Minggu 2: Membuat UI dengan Flutter
+**Tujuan:** Mengembangkan keterampilan dalam membuat antarmuka pengguna (UI) yang lebih kompleks.
+
+1. **Hari 8-9: Layouts Lanjutan**
+   - Widgets layout lanjutan: Stack, ListView, GridView.
+   - Flex dan Flexible Widgets.
+
+2. **Hari 10-11: Widgets Interaktif**
+   - Buttons: ElevatedButton, TextButton, IconButton.
+   - Input: TextField, Checkbox, Radio, Switch.
+
+3. **Hari 12-14: Styling dan Tema**
+   - Menambahkan gaya pada widgets (padding, margin, borders).
+   - Menggunakan ThemeData untuk konsistensi tema aplikasi.
+
+**Hasil:** Anda dapat membuat UI yang lebih interaktif dan terstruktur dengan baik.
+
+### Minggu 3: State Management dan Navigasi
+**Tujuan:** Menguasai state management dan navigasi antar halaman.
+
+1. **Hari 15-16: State Management**
+   - Pendalaman state management dengan `setState`.
+   - Pengenalan dan penggunaan Provider untuk state management yang lebih kompleks.
+
+2. **Hari 17-18: Navigasi dan Routing**
+   - Navigasi dasar menggunakan `Navigator`.
+   - Routing dengan `Navigator.push`, `Navigator.pop`.
+   - Navigasi dinamis dan pengelolaan routing yang lebih kompleks.
+
+3. **Hari 19-21: Praktik Membuat Aplikasi Sederhana**
+   - Membuat aplikasi dengan beberapa halaman.
+   - Implementasi state management dan navigasi.
+
+**Hasil:** Anda mampu mengelola state dan melakukan navigasi antar halaman dengan baik.
+
+### Minggu 4: Integrasi dan Pengembangan Lanjut
+**Tujuan:** Integrasi dengan layanan eksternal dan menguasai konsep lanjutan.
+
+1. **Hari 22-23: Integrasi API**
+   - Fetching data dari API menggunakan `http` package.
+   - Parsing JSON data dan menampilkan data di UI.
+
+2. **Hari 24-25: Penyimpanan Data**
+   - Pengenalan shared preferences untuk penyimpanan data lokal.
+   - Menggunakan SQLite untuk database lokal.
+
+3. **Hari 26-27: Pengujian Aplikasi**
+   - Menulis unit test untuk Dart.
+   - Pengujian widget dan integrasi.
+
+4. **Hari 28-30: Deployment dan Publikasi**
+   - Persiapan untuk build release (Android dan iOS).
+   - Publikasi aplikasi ke Google Play Store dan Apple App Store.
+
+**Hasil:** Anda mampu mengintegrasikan aplikasi dengan layanan eksternal, menyimpan data lokal, menulis pengujian, dan mempublikasikan aplikasi.
+
+### Tips Tambahan:
+- Manfaatkan dokumentasi resmi Flutter dan Dart.
+- Ikuti tutorial video dan baca artikel dari komunitas Flutter.
+- Bergabung dengan forum atau grup belajar Flutter untuk bertanya dan berdiskusi.
+
+Dengan mengikuti roadmap ini secara konsisten dan berlatih setiap hari, Anda dapat menguasai dasar-dasar Flutter dan mulai membangun aplikasi yang lebih kompleks dalam waktu satu bulan. Selamat belajar!
+
